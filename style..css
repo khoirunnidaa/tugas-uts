@@ -1,0 +1,63 @@
+/*==== HEADER ====*/
+.hid {
+  background-color: brown;  /*warna latar belakang header*/
+  text-align: center; /*teks header di tengah*/
+  padding: 30px;  /*jarak atas dan bawah header*/
+  min-height: 30px; /*tinggi minimal header*/
+  font-family: Georgia ; /*mengatur font utama*/
+}
+/*==== BODY STYLE ====*/
+.body {
+  background-color: beige;  /*warna latar belakang halaman*/
+  line-height: 2;  /*mengatur jarak antar baris teks*/
+  margin: 0px;  /*menghapus margin default browser*/
+  padding: 0px;  /*menghapus padding default browser*/
+  font-family: Consolas;  /*mengatur font utama seluruh halaman*/
+}
+/*==== NAVIGATION MENU ====*/
+.navi ul {
+  background: pink;  /*warna latar belakang navigasi*/
+  display: flex;  /*membuat menu horizontal*/
+  justify-content:center;  /*memposisikan menu di tengah*/
+  padding: 50;  /*menghapus padding default browser*/
+  margin: 0;  /*menghapus margin default browser*/
+  gap: 60px; /*jarak antar menu item*/
+}
+/*==== CONTAINER ====*/
+.container {
+  display: flex ; /*membuat menu horizontal*/
+}
+/*==== MAIN CONTENT ====*/
+.content {
+  background-color: pink ; /*warna latar belakang konten*/
+  margin: 10px ; /*jarak antar elemen*/
+  padding: 10px ; /*jarak antara konten dan garis tepi*/
+  color: black;  /*warna teks konten*/
+  border-radius: 5px; /*membuat sudut konten melengkung*/
+}
+/*==== FOOTER STYLE ====*/
+.foot {
+  text-align: center; /*membuat teks berada di tengah*/
+  background-color: pink;  /*warna latar belakang footer*/
+  color : white;  /*warna teks footer*/
+  padding: 20px;   /*jarak antara konten dan garis tepi*/
+  min-height: 20px; /*tinggi minimal footer*/
+  margin:0 ; /*menghapus margin default browser*/
+}
+/*==== FOOTER HOVER STYLE ====*/
+.foot:hover {
+   background-color: white;  /*warna latar belakang foot.hover*/
+}
+
+.ed {
+  color: beige; /* warna teks ada ed*/
+  background-color: brown; /*warna latar belakang ed*/
+  padding:1px ; /*jarak antara garis konten dan garis tepi*/
+  text-align: center; /*membuat teks berada di tengah*/
+}
+/*==== IMAGE ====*/
+.img {
+  width: 150px;  /*lebar pada gambar*/
+  height: 150px; /*tinggi pada gambar*/
+  border-radius: 50%;  /*membuat gambar menjadi lingkaran*/
+}
